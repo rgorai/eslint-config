@@ -1,0 +1,34 @@
+{
+  "name": "@rgorai/eslint-config",
+  "version": "1.0.8",
+  "description": "Ron Gorai's linting configuration for Node-based projects",
+  "repository": "https://github.com/rgorai/rgorai-lint-config.git",
+  "main": "index.js",
+  "author": "Ron Gorai",
+  "keywords": [
+    "rgorai",
+    "eslint",
+    "prettier",
+    "stylelint",
+    "config"
+  ],
+  "license": "MIT",
+  "bin": {
+    "lint": "./bin/lint.sh"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.7",
+    "stylelint": "^15.4.0",
+    "stylelint-config-standard-scss": "^8.0.0",
+    "stylelint-prettier": "^3.0.0",
+    "typescript": "^5.0.4"
+  }
+}
