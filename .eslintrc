@@ -5,14 +5,17 @@
     "@typescript-eslint",
     "eslint-plugin-react",
     "eslint-plugin-import",
-    "eslint-plugin-react-hooks"
+    "eslint-plugin-react-hooks",
+    "prettier"
   ],
   "extends": [
     "plugin:@typescript-eslint/recommended",
-    "plugin:react-hooks/recommended"
+    "plugin:react-hooks/recommended",
+    "prettier"
   ],
   "ignorePatterns": ["**/node_modules/**", "**/build/**", "**/dist/**"],
   "rules": {
+    "prettier/prettier": "warn",
     "@typescript-eslint/no-extra-semi": "off",
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-empty-function": "warn",
