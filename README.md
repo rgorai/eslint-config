@@ -9,13 +9,20 @@ Install the package as a dev dependency. It is recommended to reload the window 
 ### Add the following to your package.json. 
 Feel free to add your own config options here as well.
 ```
-"eslintConfig": {
-  "extends": "@rgorai/eslint-config/.eslintrc"
-},
-"prettier": "@rgorai/eslint-config/.prettierrc.js",
-"stylelint": {
-  "extends": "@rgorai/eslint-config/.stylelintrc"
-},
+{
+  "eslintConfig": {
+    "extends": "@rgorai/eslint-config/.eslintrc"
+  },
+  "prettier": "@rgorai/eslint-config/.prettierrc.js",
+  "stylelint": {
+    "extends": "@rgorai/eslint-config/.stylelintrc"
+  },
+
+  // if you use lint-staged
+  "lint-staged": {
+    "*": "yarn lint"
+  }
+}
 ```
 
 ### `yarn lint`
