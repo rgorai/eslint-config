@@ -4,7 +4,7 @@ Designed to be used for React, SCSS, Node.js, and TypeScript.
 
 ## Steps to use:
 ### `yarn add -D @rgorai/eslint-config`
-Install the package as a dev dependency. It is recommended to reload the window in VS Code for the ESlint and Stylelint extensions (if you have them) to properly utilize the installed config files.
+Install the package as a dev dependency.
 
 ###  `yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier stylelint stylelint-config-standard-scss stylelint-prettier typescript`
 Install peer depedencies
@@ -27,6 +27,7 @@ Feel free to add your own config options here as well.
   }
 }
 ```
+It is recommended to reload the window in VS Code after this in order for the ESlint and Stylelint extensions (if you have them) to properly utilize the installed config files.
 
 ### `yarn lint`
 Lint all .tsx, .ts, .jsx, .js, and .scss files in your folder at once
