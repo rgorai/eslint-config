@@ -4,14 +4,15 @@
   "ignoreFiles": ["**/node_modules/**", "**/build/**", "**/dist/**"],
   "rules": {
     "prettier/prettier": true,
-    "selector-class-pattern": "",
-    "color-function-notation": "legacy",
     "scss/double-slash-comment-whitespace-inside": null,
     "scss/double-slash-comment-empty-line-before": null,
+    "scss/comment-no-empty": null,
+    "scss/operator-no-newline-after": null,
+    "selector-class-pattern": "",
+    "color-function-notation": "legacy",
     "no-descending-specificity": null,
     "selector-pseudo-class-no-unknown": null,
     "no-empty-source": null,
-    "scss/comment-no-empty": null,
     "no-invalid-position-at-import-rule": null
   }
 }
