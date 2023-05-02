@@ -1,6 +1,12 @@
 # Ron Gorai's Configuration for ESLint, Stylelint, and Prettier
 
-Designed to be used for React, SCSS, Node.js, and TypeScript.
+Use my ESLint, Stylelint, and Prettier settings in your project and lint your codebase on demand with a simple package script.
+
+## Prequisites
+This configuration is designed to be used for TypeScript, React, SCSS, and Node.js, but could work for other configurations as well.
+
+## Demo
+Please visit <a href="https://rgorai-npm-packages.netlify.app/eslint-config">my NPM platform</a> to view a demo of this package.
 
 ## Steps to use:
 ### 1. `yarn add -D @rgorai/eslint-config`
@@ -37,4 +43,4 @@ Feel free to add your own config options here as well. It is recommended to relo
 ```
 
 ### 5. `yarn lint`
-Lint all .tsx, .ts, .jsx, .js, and .scss files in your folder at once.
+Lint all `.tsx`, `.ts`, `.jsx`, `.js`, and `.scss` files in your folder at once.
