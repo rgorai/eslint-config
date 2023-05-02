@@ -3,7 +3,6 @@
   "version": "1.0.18",
   "description": "Ron Gorai's linting configuration for Node-based projects",
   "repository": "https://github.com/rgorai/rgorai-eslint-config.git",
-  "main": "index.js",
   "author": "Ron Gorai",
   "keywords": [
     "rgorai",
@@ -16,6 +15,13 @@
   "bin": {
     "lint": "./bin/lint.sh"
   },
+  "files": [
+    ".eslintrc",
+    ".prettierrc.js",
+    ".stylelintrc",
+    "README.md",
+    "LICENSE"
+  ],
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.58.0",
     "@typescript-eslint/parser": "^5.58.0",

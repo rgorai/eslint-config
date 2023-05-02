@@ -1,4 +1,4 @@
-# Ron Gorai's Configuration for ESlint, Stylelint, and Prettier
+# Ron Gorai's Configuration for ESLint, Stylelint, and Prettier
 
 Designed to be used for React, SCSS, Node.js, and TypeScript.
 
@@ -10,7 +10,7 @@ Install the package as a dev dependency.
 Install peer dependencies.
 
 ### 3. Add the following to your `package.json`. 
-Feel free to add your own config options here as well. It is recommended to reload the window in VS Code after this in order for the ESlint and Stylelint extensions (if you have them) to properly utilize the installed config files.
+Feel free to add your own config options here as well. It is recommended to reload the window in VS Code after this in order for the ESLint and Stylelint extensions (if you have them) to properly utilize the installed config files.
 ```
 "eslintConfig": {
   "extends": "@rgorai/eslint-config/.eslintrc"
