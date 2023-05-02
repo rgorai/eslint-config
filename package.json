@@ -16,6 +16,7 @@
     "lint": "./bin/lint.sh"
   },
   "files": [
+    "bin",
     ".eslintrc",
     ".prettierrc.js",
     ".stylelintrc",
