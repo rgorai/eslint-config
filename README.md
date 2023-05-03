@@ -1,8 +1,8 @@
 # Ron Gorai's Configuration for ESLint, Stylelint, and Prettier
 
-Use my ESLint, Stylelint, and Prettier settings in your project and lint your codebase on demand with a simple package script.
+Use my ESLint, Stylelint, and Prettier settings in your project and lint your codebase on demand with a simple CLI command.
 
-## Prequisites
+## Prerequisites
 This configuration is designed to be used for TypeScript, React, SCSS, and Node.js, but could work for other configurations as well.
 
 ## Demo
@@ -16,7 +16,7 @@ Install the package as a dev dependency.
 Install peer dependencies.
 
 ### 3. Add the following to your `package.json`. 
-Feel free to add your own config options here as well. It is recommended to reload the window in VS Code after this in order for the ESLint and Stylelint extensions (if you have them) to properly utilize the installed config files.
+Feel free to add your own config options here as well. It is recommended to reload the window in VS Code after this step in order for the ESLint and Stylelint extensions (if you have them) to properly utilize the installed config files.
 ```
 "eslintConfig": {
   "extends": "@rgorai/eslint-config/.eslintrc"
@@ -32,7 +32,7 @@ Feel free to add your own config options here as well. It is recommended to relo
 }
 ```
 
-### 4. If you are using VS Code, it is recommended to add the following to your `settings.json` to disable extension highlighting for Prettier.
+### 4. If you are using VS Code and the ESLint extension, it is recommended to add the following to your `settings.json` to disable highlighting for Prettier.
 ```
 "eslint.rules.customizations": [
   {
