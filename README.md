@@ -43,4 +43,4 @@ Feel free to add your own config options here as well. It is recommended to relo
 ```
 
 ### 5. `yarn lint`
-Lint all `.tsx`, `.ts`, `.jsx`, `.js`, and `.scss` files in your folder at once.
+Lint all `.tsx`, `.ts`, `.jsx`, `.js`, and `.scss` files in your NPM project at once.
