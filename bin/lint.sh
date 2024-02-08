@@ -7,5 +7,5 @@ fi
 
 if command -v stylelint &> /dev/null
 then
-  stylelint --allow-empty-input --fix './**/*.scss'
+  stylelint --allow-empty-input --fix './**/*.{css,scss}'
 fi
