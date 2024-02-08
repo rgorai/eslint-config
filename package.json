@@ -1,6 +1,6 @@
 {
   "name": "@rgorai/eslint-config",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Ron Gorai's linting configuration for Node-based projects",
   "repository": "https://github.com/rgorai/rgorai-eslint-config.git",
   "author": "Ron Gorai",
