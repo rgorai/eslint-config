@@ -12,7 +12,7 @@ Please visit <a href="https://rgorai-npm-packages.netlify.app/eslint-config">my 
 ### 1. `yarn add -D @rgorai/eslint-config`
 Install the package as a dev dependency.
 
-### 2. `yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier stylelint stylelint-config-standard-scss stylelint-prettier typescript`
+### 2. `yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier stylelint stylelint-config-standard stylelint-config-standard-scss stylelint-prettier typescript`
 Install peer dependencies.
 
 ### 3. Add the following to your `package.json`. 
