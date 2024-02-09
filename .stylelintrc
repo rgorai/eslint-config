@@ -5,7 +5,6 @@
     "stylelint-prettier/recommended"
   ],
   "plugins": ["stylelint-prettier"],
-  "ignoreFiles": ["**/node_modules/**", "**/build/**", "**/dist/**"],
   "rules": {
     "prettier/prettier": true,
     "scss/double-slash-comment-whitespace-inside": null,

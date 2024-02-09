@@ -7,5 +7,5 @@ fi
 
 if command -v stylelint &> /dev/null
 then
-  stylelint --allow-empty-input --fix './**/*.{css,scss}'
+  stylelint --allow-empty-input --fix './**/*.{css,scss}' --ignore-pattern '**/node_modules/**' --ignore-pattern '**/build/**' --ignore-pattern '**/dist/**'
 fi
