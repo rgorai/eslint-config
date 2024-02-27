@@ -29,6 +29,8 @@
     "react/jsx-props-no-multi-spaces": "warn",
     "react/no-unescaped-entities": "error",
     "import/order": "warn",
+    "import/no-commonjs": "error",
+    "import/newline-after-import": "warn",
     "no-unused-vars": "off",
     "no-throw-literal": "off",
     "comma-dangle": [
