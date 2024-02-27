@@ -80,7 +80,11 @@
         "after": true
       }
     ],
-    "no-trailing-spaces": "warn"
+    "no-trailing-spaces": "warn",
+    "padding-line-between-statements": [
+      "warn",
+      { "blankLine": "always", "prev": "*", "next": "export" }
+    ]
   },
   "env": {
     "es6": true,
