@@ -17,9 +17,9 @@
   },
   "files": [
     "bin",
-    ".eslintrc",
-    ".prettierrc.js",
-    ".stylelintrc",
+    "eslint.config.js",
+    "prettier.config.js",
+    "stylelint.config.js",
     "README.md",
     "LICENSE"
   ],
@@ -35,7 +35,6 @@
     "prettier": ">=2.8.7",
     "stylelint": ">=15.4.0",
     "stylelint-config-standard": ">=8.0.0",
-    "stylelint-config-standard-scss": ">=8.0.0",
     "stylelint-prettier": ">=3.0.0",
     "typescript": ">=5.0.4"
   }
