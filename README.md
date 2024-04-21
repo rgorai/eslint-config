@@ -9,19 +9,21 @@ This configuration is designed to be used for TypeScript, React, SCSS, and Node.
 Please visit <a href="https://rgorai-npm-packages.netlify.app/eslint-config">my NPM platform</a> to view a demo of this package.
 
 ## Steps to use:
+### 1. `yarn add -D @rgorai/eslint-config`
+Install the package as a dev dependency.
 
-### 1. `yarn add -D @rgorai/eslint-config @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier stylelint stylelint-config-standard stylelint-config-standard-scss stylelint-prettier typescript`
-Install dependency and peer dependencies.
+### 2. `yarn add -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier stylelint stylelint-config-standard stylelint-config-standard-scss stylelint-prettier typescript`
+Install peer dependencies.
 
-### 2. Add the following to your `package.json`. 
+### 3. Add the following to your `package.json`. 
 Feel free to add your own config options here as well. It is recommended to reload the window in VS Code after this step in order for the ESLint and Stylelint extensions (if you have them) to properly utilize the installed config files.
 ```
 "eslintConfig": {
-  "extends": "@rgorai/eslint-config/eslint.config.js"
+  "extends": "@rgorai/eslint-config/.eslintrc"
 },
-"prettier": "@rgorai/eslint-config/prettier.config.js",
+"prettier": "@rgorai/eslint-config/.prettierrc.js",
 "stylelint": {
-  "extends": "@rgorai/eslint-config/stylelint.config.js"
+  "extends": "@rgorai/eslint-config/.stylelintrc"
 },
 
 // if you use lint-staged
