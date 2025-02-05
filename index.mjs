@@ -7,7 +7,7 @@ import prettierConfig from 'eslint-config-prettier'
 
 const getConfig = (extended = false) => [
   {
-    ignores: ['**/node_modules/**', '**/build/**', '**/dist/**'],
+    ignores: ['**/node_modules/**', '**/build/**', '**/dist/**', '**/.next/**'],
   },
   {
     files: [
