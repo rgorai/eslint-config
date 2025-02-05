@@ -3,7 +3,6 @@ import reactPlugin from 'eslint-plugin-react'
 import importPlugin from 'eslint-plugin-import'
 import reactHooksPlugin from 'eslint-plugin-react-hooks'
 import prettierPlugin from 'eslint-plugin-prettier'
-import globals from 'globals'
 import prettierConfig from 'eslint-config-prettier'
 
 const getConfig = (extended = false) => [
@@ -20,7 +19,6 @@ const getConfig = (extended = false) => [
     languageOptions: {
       parser: tsEslint.parser,
       sourceType: 'module',
-      globals: { ...globals.browser },
       parserOptions: {
         projectService: true,
         tsconfigRootDir: import.meta.dirname,
