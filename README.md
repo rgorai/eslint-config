@@ -47,7 +47,7 @@ export default [
 
 // if you use lint-staged
 "lint-staged": {
-  "*": "yarn lint"
+  "**/*.{ts,tsx,js,jsx,cjs,mjs}": "yarn lint"
 }
 ```
 
