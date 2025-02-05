@@ -18,8 +18,8 @@
   },
   "files": [
     "bin",
-    "index.js",
-    ".prettierrc.js",
+    "index.mjs",
+    ".prettierrc.mjs",
     ".stylelintrc",
     "README.md",
     "LICENSE"
