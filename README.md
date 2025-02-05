@@ -40,7 +40,7 @@ export default [
 ### 4. Apply the prettier and stylelint configs in your `package.json` file. 
 
 ```
-"prettier": "@rgorai/eslint-config/.prettierrc.js",
+"prettier": "@rgorai/eslint-config/.prettierrc.mjs",
 "stylelint": {
   "extends": "@rgorai/eslint-config/.stylelintrc"
 },
@@ -62,6 +62,6 @@ export default [
 ```
 
 ### 6. Run `yarn lint` to format manually.
-Lint all `.tsx`, `.ts`, `.jsx`, `.js`, `.css`, and `.scss` files within the src folder of your NPM project at once.
+Lint all `.tsx`, `.ts`, `.jsx`, `.js`, `.cjs`, and `.mjs` (plus `.css` and `.scss` if using stylelint) files in your NPM project at once.
 
 If using Next.js, you must remove the existing script in your `package.json` to use this command.

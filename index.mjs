@@ -7,22 +7,25 @@ import prettierConfig from 'eslint-config-prettier'
 
 const getConfig = (extended = false) => [
   {
-    ignores: ['**/node_modules/**', '**/build/**', '**/dist/**', "*.mjs", "*.js", ".jsx"],
+    ignores: ['**/node_modules/**', '**/build/**', '**/dist/**'],
   },
   {
-    files: ['**/src/*.ts', '**/src/*.tsx'],
+    files: [
+      '**/*.ts',
+      '**/*.tsx',
+      '**/*.js',
+      '**/*.jsx',
+      '**/*.cjs',
+      '**/*.mjs',
+    ],
   },
 
   prettierConfig,
-  
+
   {
     languageOptions: {
       parser: tsEslint.parser,
       sourceType: 'module',
-      parserOptions: {
-        projectService: true,
-        tsconfigRootDir: import.meta.dirname,
-      },
     },
     plugins: {
       prettier: prettierPlugin,
@@ -30,8 +33,8 @@ const getConfig = (extended = false) => [
       ...(extended && {
         react: reactPlugin,
         'react-hooks': reactHooksPlugin,
-        import: importPlugin
-      })
+        import: importPlugin,
+      }),
     },
     rules: {
       'prettier/prettier': 'warn',
@@ -78,7 +81,7 @@ const getConfig = (extended = false) => [
         { blankLine: 'always', prev: '*', next: 'export' },
       ],
     },
-  }
+  },
 ]
 
 export const rgoraiConfigBase = getConfig()
@@ -86,6 +89,6 @@ export const rgoraiConfigBase = getConfig()
 export const rgoraiConfig = tsEslint.config(
   tsEslint.configs.recommended,
   ...getConfig(true)
-) 
+)
 
 export default rgoraiConfig
