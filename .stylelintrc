@@ -19,7 +19,7 @@
       }
     ],
     "selector-class-pattern": "",
-    "color-function-notation": "legacy",
+    "color-function-notation": "modern",
     "no-descending-specificity": null,
     "selector-pseudo-class-no-unknown": null,
     "no-empty-source": null,
