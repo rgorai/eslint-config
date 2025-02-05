@@ -43,7 +43,7 @@ const getConfig = (extended = false) => [
       '@typescript-eslint/no-empty-function': 'warn',
       '@typescript-eslint/no-unused-vars': [
         'warn',
-        { varsIgnorePattern: '^_$', argsIgnorePattern: '^_$' },
+        { varsIgnorePattern: '^_+$', argsIgnorePattern: '^_+$' },
       ],
       'jsx-a11y/img-redundant-alt': 'off',
       'react/react-in-jsx-scope': 'off',
