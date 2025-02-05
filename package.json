@@ -1,7 +1,7 @@
 {
   "name": "@rgorai/eslint-config",
   "main": "index.mjs",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Ron Gorai's linting configuration for TypeScript-based React apps.",
   "repository": "https://github.com/rgorai/rgorai-eslint-config.git",
   "author": "Ron Gorai",
