@@ -8,10 +8,10 @@ import prettierConfig from 'eslint-config-prettier'
 
 const getConfig = (extended = false) => [
   {
-    ignores: ['**/node_modules/**', '**/build/**', '**/dist/**', "*.mjs"],
+    ignores: ['**/node_modules/**', '**/build/**', '**/dist/**', "*.mjs", "*.js", ".jsx"],
   },
   {
-    files: ['**/*.ts', '**/*.tsx'],
+    files: ['**/src/*.ts', '**/src/*.tsx'],
   },
 
   prettierConfig,
