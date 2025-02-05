@@ -11,7 +11,7 @@ const getConfig = (extended = false) => [
     ignores: ['**/node_modules/**', '**/build/**', '**/dist/**', "*.mjs"],
   },
   {
-    files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
+    files: ['**/*.ts', '**/*.tsx'],
   },
 
   prettierConfig,
