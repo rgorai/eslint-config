@@ -51,6 +51,7 @@ const getConfig = (extended = false) => [
         },
       ],
       'jsx-a11y/img-redundant-alt': 'off',
+      'react-hooks/exhaustive-deps': 'error',
       'react/react-in-jsx-scope': 'off',
       'react/jsx-tag-spacing': 'warn',
       'react/jsx-props-no-multi-spaces': 'warn',
