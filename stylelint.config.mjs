@@ -3,7 +3,12 @@ export default {
   extends: ['stylelint-config-recommended', 'stylelint-prettier/recommended'],
   plugins: ['stylelint-prettier'],
   rules: {
-    'prettier/prettier': true,
+    'prettier/prettier': [
+      true,
+      {
+        severity: 'warning',
+      },
+    ],
     'selector-class-pattern': '',
     'color-function-notation': 'modern',
     'no-descending-specificity': null,
