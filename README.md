@@ -3,7 +3,7 @@
 Use my ESLint, Stylelint, and Prettier settings in your project and lint your codebase on demand with a simple CLI command.
 
 ## Prerequisites
-This configuration is designed to be used for TypeScript, React, SCSS, and Node.js, but could work for other configurations as well.
+This configuration is designed to be used for TypeScript, React, CSS, and Node.js, but could work for other configurations as well.
 
 ## Demo
 Please visit <a href="https://rgorai-npm-packages.netlify.app/eslint-config">my NPM platform</a> to view a demo of this package.
@@ -15,7 +15,7 @@ Install the package as a dev dependency.
 ### 2. `yarn add -D typescript-eslint eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks prettier typescript`
 Install peer dependencies.
 
-If you need Stylelint, add the following: `stylelint stylelint-config-standard stylelint-config-standard-scss stylelint-prettier`
+If you need Stylelint, add the following: `stylelint stylelint-config-standard stylelint-prettier`
 
 ### 3. Apply the eslint config in your `eslint.config.mjs` file.
 
@@ -62,6 +62,6 @@ export default [
 ```
 
 ### 6. Run `yarn lint` to format manually.
-Lint all `.tsx`, `.ts`, `.jsx`, `.js`, `.cjs`, and `.mjs` (plus `.css` and `.scss` if using stylelint) files in your NPM project at once.
+Lint all `.tsx`, `.ts`, `.jsx`, `.js`, `.cjs`, and `.mjs` (plus `.css` if using stylelint) files in your NPM project at once.
 
 If using Next.js, you must remove the existing script in your `package.json` to use this command.
