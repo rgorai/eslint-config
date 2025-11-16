@@ -20,7 +20,7 @@
     "bin",
     "index.mjs",
     ".prettierrc.mjs",
-    ".stylelintrc",
+    "stylelint.config.mjs",
     "README.md",
     "LICENSE"
   ],

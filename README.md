@@ -42,7 +42,7 @@ export default [
 ```
 "prettier": "@rgorai/eslint-config/.prettierrc.mjs",
 "stylelint": {
-  "extends": "@rgorai/eslint-config/.stylelintrc"
+  "extends": "@rgorai/eslint-config/stylelint.config.mjs"
 },
 
 // if you use lint-staged
