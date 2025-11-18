@@ -18,7 +18,7 @@ export default {
     'at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['base', 'apply', 'theme'],
+        ignoreAtRules: ['base', 'apply', 'theme', 'custom-variant'],
       },
     ],
   },
