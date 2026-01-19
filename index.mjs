@@ -55,6 +55,7 @@ const getConfig = (extended = false) => [
       'react/react-in-jsx-scope': 'off',
       'react/jsx-tag-spacing': 'warn',
       'react/jsx-props-no-multi-spaces': 'warn',
+      'react/jsx-key': 'error',
       'react/no-unescaped-entities': 'error',
       'import/order': 'warn',
       'import/no-commonjs': 'error',
